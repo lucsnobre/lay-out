@@ -69,22 +69,23 @@ main{
     justify-content: space-between;
 }
 
-.social div.insta{
-    background-image: url(./img/insta.jpg); 
+.social :nth-child(1){
+    background-image: url(./img/insta.png); 
     background-size: cover; 
     background-position: center; 
 }
 
-.social div.x{
-    background-image: url(./img/x.png); 
+.social :nth-child(2){
+    background-image: url(./img/twtr.webp); 
     background-size: cover; 
     background-position: center; 
 }
-.social div.face{
+.social :nth-child(3){
     background-image: url(./img/face.png); 
     background-size: cover; 
     background-position: center; 
 }
+
 
 .conteudo p{
     font-size: 48px;
@@ -106,7 +107,7 @@ main{
    height: 80px;
    width: 80px;
    border-radius: 50%;
-   background-color: lightgray;
+  
 }
 
 .destaque{
