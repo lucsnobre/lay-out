@@ -35,7 +35,7 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color:  rgb(0, 0, 0);
+    background-color:#e84f48
 }
 .menu ul {
     display: flex;
@@ -45,12 +45,19 @@ header{
 }  
 main{
     flex-grow: 1;
-    background-color: rgb(155, 125, 183);
+    background-image: url('./img/e3f30f9f-8c180bbc431691f3ba17043836676144-1024-1024.jpeg');
+    background-repeat: no-repeat;
+    background-position: left 1%;
+    background-position: right ;
     display: flex;
 }
+
+
+
+
 .conteudo{
     width: 50%;
-    background-color: rgb(159, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding-right: 128px;
     flex-direction: column;
     justify-content: space-between;
@@ -61,6 +68,24 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+.social div.insta{
+    background-image: url(./img/insta.jpg); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.social div.x{
+    background-image: url(./img/x.png); 
+    background-size: cover; 
+    background-position: center; 
+}
+.social div.face{
+    background-image: url(./img/face.png); 
+    background-size: cover; 
+    background-position: center; 
+}
+
 .conteudo p{
     font-size: 48px;
 }
